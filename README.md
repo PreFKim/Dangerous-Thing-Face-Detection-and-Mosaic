@@ -40,7 +40,6 @@ yolo v5내에 제 깃허브에 있는 detect-mosaic.py를 넣어줍니다.
 --obj [-1] #모든 객체에 대해서 모자이크를 처리하지 않음
 --obj [1,2] #1번과 2번 클래스에 대해서 모자이크를 처리함
 ```
-
 전체 모자이크
 ```
 D:\anaconda3\python.exe C:\Users\fhsdn\Desktop\yolov5\detect-mosaic.py --weights C:/Users/fhsdn/Desktop/detect/models/200.pt --source 0 --obj []
@@ -48,27 +47,27 @@ D:\anaconda3\python.exe C:\Users\fhsdn\Desktop\yolov5\detect-mosaic.py --weights
 D:\anaconda3\python.exe C:\Users\fhsdn\Desktop\yolov5\detect-mosaic.py --weights C:/Users/fhsdn/Desktop/detect/models/200.pt --source 0 --obj []
 ```
 
-[![original](./img/original.PNG)](https://youtu.be/1s7kCSHE_y8)
+<a href="https://youtu.be/1s7kCSHE_y8"><p align="center"><img src="./img/original.PNG"></p></a>
 
 일부 모자이크
 ```
 D:\anaconda3\python.exe C:\Users\fhsdn\Desktop\yolov5\detect-mosaic.py --weights C:/Users/fhsdn/Desktop/detect/models/200.pt --source 0 --obj [1,4]
 ```
 
-[![sub-part](./img/sub.PNG)](https://youtu.be/uOG80WX8hiI)
+<a href="https://youtu.be/uOG80WX8hiI"><p align="center"><img src="./img/sub.PNG"></p></a>
 
 모자이크 처리 x
 ```
 D:\anaconda3\python.exe C:\Users\fhsdn\Desktop\yolov5\detect-mosaic.py --weights C:/Users/fhsdn/Desktop/detect/models/200.pt --source 0 --obj [-1]
 ```
-[![no](./img/no.PNG)](https://youtu.be/Zm7MMylasS4)
+<a href="https://youtu.be/Zm7MMylasS4"><p align="center"><img src="./img/no.PNG"></p></a>
 
 모자이크 처리 + 바운딩박스 삭제
 ```
 D:\anaconda3\python.exe C:\Users\fhsdn\Desktop\yolov5\detect-mosaic.py --weights C:/Users/fhsdn/Desktop/detect/models/200.pt --source 0 --obj [] --hide-annotation
 ```
 
-[![practical](./img/practical.PNG)](https://youtu.be/N6j2c6EkgZ8)
+<a href="https://youtu.be/N6j2c6EkgZ8"><p align="center"><img src="./img/practical.PNG"></p></a>
 
 ## 3. 데이터 셋 구성
 
